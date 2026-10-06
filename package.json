@@ -1,0 +1,39 @@
+{
+  "name": "rise-of-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RISE OF AI \u2014 From Machine to Intelligence. Scroll-driven cinematic 3D web experience.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "~9.8.1",
+    "@react-three/postprocessing": "3.1.3",
+    "gsap": "~3.15.0",
+    "lenis": "~1.3.0",
+    "next": "~16.3.8",
+    "postprocessing": "6.39.5",
+    "react": "~19.2.8",
+    "react-dom": "~19.2.8",
+    "three": "0.186.1",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "~19.2.0",
+    "@types/react-dom": "~19.2.0",
+    "@types/three": "0.186.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "~16.3.8",
+    "typescript": "^5.9.0"
+  }
+}
